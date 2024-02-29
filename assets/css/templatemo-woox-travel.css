@@ -114,7 +114,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #2a2a2a;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -232,7 +232,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #2a2a2a;
+  color: #ffffff;
 }
 
 /* 
@@ -247,7 +247,7 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #111;
+  background-color: #ffffff;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -350,7 +350,7 @@ Header Style
   top: 0!important;
   left: 0;
   right: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.15)!important;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -735,7 +735,7 @@ Banner Style
   height: 100vh;
   min-height: 700px;
   color: #fff;
-  background-color: #222;
+  background-color: #ffffff;
   position: relative;
 }
 #section-1 .content-slider {
@@ -1685,7 +1685,7 @@ body #user-button:hover .u-icons, body #user-button:focus-within .u-icons {
 
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
-    background: #232223;
+    background: #ffffff;
     color: white;
   }
 }
@@ -1782,7 +1782,7 @@ body .options .option:not(.active) {
 }
 body .options .option:not(.active) .shadow {
   bottom: -40px;
-  box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
+  box-shadow: inset 0 -120px 0px -120px rgb(255, 255, 255), inset 0 -120px 0px -100px rgb(255, 255, 255);
 }
 body .options .option:not(.active) .label {
   bottom: 10px;
@@ -1880,7 +1880,7 @@ Deals Page Style
 .page-heading h2 {
   font-size: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #000000;
   margin-bottom: 30px;
 }
 
